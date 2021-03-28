@@ -4,7 +4,8 @@
   "description": "react and express.js practice",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index",
+    "dev": "nodemon index"
   },
   "repository": {
     "type": "git",
@@ -18,8 +19,13 @@
   },
   "homepage": "https://github.com/RickyRAC/react-express-app#readme",
   "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
     "express": "^4.17.1",
     "pg": "^8.5.1",
     "sequelize": "^6.6.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
   }
 }
